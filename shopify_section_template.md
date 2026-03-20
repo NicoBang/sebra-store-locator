@@ -957,26 +957,60 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     input.addEventListener("input", debounce(handleSearchInput, 300));
-    select.addEventListener("change", searchStores);
+    select.addEventListener("change", handleCountryChange);
     populateCountryDropdown();
   }
 
-  function handleSearchInput() {
+  // Håndter landsfilter ændring
+  async function handleCountryChange() {
     const term = input.value.trim();
 
-    // Hvis bruger søger efter by/postnummer, prøv Nominatim
-    if (term.length >= 3 && !select.value) {
-      searchLocationByQuery(term);
+    // Hvis der er en søgeterm, prøv at geocode og vis nærliggende
+    if (term.length >= 2 && userPosition) {
+      showStoresNearLocation(userPosition.lat, userPosition.lng);
+    } else if (term.length >= 2) {
+      // Prøv at geocode søgetermen igen
+      const geocoded = await geocodeSearchTerm(term);
+      if (geocoded) {
+        showStoresNearLocation(geocoded.lat, geocoded.lng);
+        return;
+      }
+      searchStores();
     } else {
       searchStores();
     }
   }
 
-  // Nominatim geocoding for by/postnummer søgning
-  async function searchLocationByQuery(query) {
+  async function handleSearchInput() {
+    const term = input.value.trim();
+
+    // Prøv altid at geocode søgningen først (postnummer, by, bydel)
+    if (term.length >= 2) {
+      const geocoded = await geocodeSearchTerm(term);
+      if (geocoded) {
+        showStoresNearLocation(geocoded.lat, geocoded.lng);
+        return;
+      }
+    }
+
+    // Fallback til tekstsøgning
+    searchStores();
+  }
+
+  // Geocode søgeterm til koordinater
+  async function geocodeSearchTerm(term) {
+    // For danske postnumre (4 cifre), tilføj Danmark for bedre resultater
+    let searchQuery = term;
+    if (/^\d{4}$/.test(term)) {
+      searchQuery = term + ', Denmark';
+    } else if (/^\d{5}$/.test(term)) {
+      // Tyske postnumre (5 cifre)
+      searchQuery = term + ', Germany';
+    }
+
     try {
       const url = `https://nominatim.openstreetmap.org/search?` +
-        `q=${encodeURIComponent(query)}&format=json&limit=1&countrycodes=${CONFIG.NOMINATIM_COUNTRIES}`;
+        `q=${encodeURIComponent(searchQuery)}&format=json&limit=1&countrycodes=${CONFIG.NOMINATIM_COUNTRIES}`;
 
       const response = await fetch(url, {
         headers: { 'User-Agent': 'StoreLocator/1.0' }
@@ -985,40 +1019,53 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = await response.json();
 
       if (data && data[0]) {
-        const lat = parseFloat(data[0].lat);
-        const lon = parseFloat(data[0].lon);
-
-        // Gem position og sorter
-        userPosition = { lat, lng: lon };
-
-        // Beregn afstande
-        allStores.forEach(store => {
-          if (store.Latitude && store.Longitude) {
-            store.distance = calculateDistance(
-              lat, lon,
-              parseFloat(store.Latitude), parseFloat(store.Longitude)
-            );
-          } else {
-            store.distance = Infinity;
-          }
-        });
-
-        // Sorter og vis
-        filteredStores = [...allStores].sort((a, b) => (a.distance || Infinity) - (b.distance || Infinity));
-        displayStores(filteredStores);
-        updateMapMarkers(filteredStores);
-
-        // Center kort
-        map.setView([lat, lon], 10);
-
-        return;
+        return {
+          lat: parseFloat(data[0].lat),
+          lng: parseFloat(data[0].lon),
+          displayName: data[0].display_name
+        };
       }
     } catch (error) {
-      console.log('Nominatim search error:', error);
+      console.log('Geocoding error:', error);
     }
 
-    // Fallback til normal søgning
-    searchStores();
+    return null;
+  }
+
+  // Vis butikker sorteret efter afstand fra en lokation
+  function showStoresNearLocation(lat, lng) {
+    const country = select.value;
+    let results = [...allStores];
+
+    // Filtrer efter land hvis valgt
+    if (country) {
+      results = results.filter(s => s.Country === country);
+    }
+
+    // Beregn afstand for alle butikker
+    results.forEach(store => {
+      if (store.Latitude && store.Longitude) {
+        store.distance = calculateDistance(
+          lat, lng,
+          parseFloat(store.Latitude), parseFloat(store.Longitude)
+        );
+      } else {
+        store.distance = Infinity;
+      }
+    });
+
+    // Sorter efter afstand (nærmeste først)
+    results.sort((a, b) => (a.distance || Infinity) - (b.distance || Infinity));
+
+    // Gem position til senere brug
+    userPosition = { lat, lng };
+
+    filteredStores = results;
+    displayStores(results);
+    updateMapMarkers(results);
+
+    // Center kort på søgt lokation
+    map.setView([lat, lng], 10);
   }
 
   function populateCountryDropdown() {
