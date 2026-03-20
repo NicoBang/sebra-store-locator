@@ -389,8 +389,8 @@ document.addEventListener("DOMContentLoaded", () => {
     tryDifferentSearch: "{{ 'store_locator.try_different_search' | t | default: 'Prøv at ændre søgning' }}",
     nameNotAvailable: "{{ 'store_locator.name_not_available' | t | default: 'Navn ikke tilgængeligt' }}",
     getDirections: "{{ 'store_locator.get_directions' | t | default: 'Få vejvisning' }}",
-    storesFoundOne: "{{ 'store_locator.stores_found.one' | t | default: '{count} butik fundet' }}",
-    storesFoundOther: "{{ 'store_locator.stores_found.other' | t | default: '{count} butikker fundet' }}"
+    storesFoundOne: "{{ 'store_locator.stores_found.one' | t }}",
+    storesFoundOther: "{{ 'store_locator.stores_found.other' | t }}"
   };
 
   // Vent på at Fuse.js er loaded
@@ -1076,9 +1076,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function displayStores(stores) {
     // Opdater results info
+    const storesFoundOneText = TRANSLATIONS.storesFoundOne || '{count} butik fundet';
+    const storesFoundOtherText = TRANSLATIONS.storesFoundOther || '{count} butikker fundet';
     let storesFoundText = stores.length === 1
-      ? TRANSLATIONS.storesFoundOne.replace('{count}', stores.length)
-      : TRANSLATIONS.storesFoundOther.replace('{count}', stores.length);
+      ? storesFoundOneText.replace('{count}', stores.length)
+      : storesFoundOtherText.replace('{count}', stores.length);
 
     resultsInfo.textContent = stores.length === 0 ? TRANSLATIONS.noStoresFound : storesFoundText;
 
