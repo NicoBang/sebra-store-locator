@@ -1974,7 +1974,7 @@
     "State/Province": ""
   },
   {
-    "Company": "BabySam Snedsted",
+    "Company": "BabySam ",
     "Address": "Hovedgaden 9-13",
     "Postal code": "7752",
     "City": "Snedsted",
@@ -1988,7 +1988,7 @@
     "State/Province": ""
   },
   {
-    "Company": "BabySam Holstebro",
+    "Company": "BabySam ",
     "Address": "Nyholmvej 7",
     "Postal code": "7500",
     "City": "Holstebro",
@@ -2016,7 +2016,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Luxo Living A/S",
+    "Company": "Luxo Living ",
     "Address": "Hammershusvej 8",
     "Postal code": "7400",
     "City": "Herning",
@@ -2044,7 +2044,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Trainz ApS / Børnenes Kartel",
+    "Company": "Børnenes Kartel",
     "Address": "Virkelyst 36",
     "Postal code": "7400",
     "City": "Herning",
@@ -2170,7 +2170,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Luksusbaby A/S",
+    "Company": "Luksusbaby",
     "Address": "Porsborgparken 15",
     "Postal code": "9530",
     "City": "Støvring",
@@ -2226,7 +2226,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Salling Ålborg",
+    "Company": "Salling ",
     "Address": "Nytorv 8",
     "Postal code": "9000",
     "City": "Aalborg",
@@ -2394,7 +2394,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Tinga Tango v/Anette Langholm",
+    "Company": "Tinga Tango",
     "Address": "Kongegade 27 st",
     "Postal code": "5800",
     "City": "Nyborg",
@@ -2478,7 +2478,7 @@
     "State/Province": ""
   },
   {
-    "Company": "BabySam Køge",
+    "Company": "BabySam ",
     "Address": "Støberivej 2",
     "Postal code": "4600",
     "City": "Køge",
@@ -2576,7 +2576,7 @@
     "State/Province": ""
   },
   {
-    "Company": "BabySam Valby",
+    "Company": "BabySam ",
     "Address": "Roskildevej 181",
     "Postal code": "2500",
     "City": "Valby",
@@ -2800,7 +2800,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Legebørsen ApS",
+    "Company": "Legebørsen ",
     "Address": "",
     "Postal code": "2791",
     "City": "Dragør",
@@ -5152,7 +5152,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Gaveriet AS",
+    "Company": "Gaveriet ",
     "Address": "Farnesvegen 1",
     "Postal code": "6884",
     "City": "Øvre Årdal",
@@ -5222,7 +5222,7 @@
     "State/Province": ""
   },
   {
-    "Company": "MINIVERDEN AS",
+    "Company": "MINIVERDEN ",
     "Address": "Kanadaveien 323",
     "Postal code": "3520",
     "City": "JEVNAKER",
@@ -5236,7 +5236,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Verket Interiør AS",
+    "Company": "Verket Interiør ",
     "Address": "Vertshusveien 8afd. Lilleverket",
     "Postal code": "1353",
     "City": "Bærums Verk",
@@ -5731,9 +5731,9 @@
     "Postal code": "113 31",
     "City": "Stockholm",
     "Country": "SE",
-    "Website": "",
+    "Website": "https://bonti.se/?search=sebra",
     "Phone": "",
-    "Online": "",
+    "Online": "X",
     "Physical": "X",
     "Latitude": "59.3336265",
     "Longitude": "18.0675198",
@@ -5821,6 +5821,62 @@
     "Physical": "X",
     "Latitude": "-23.9716879",
     "Longitude": "-46.3091549",
+    "State/Province": ""
+  },
+  {
+    "Company": "Skeidar",
+    "Address": "Tungasletta 10",
+    "Postal code": "7047",
+    "City": "Trondheim",
+    "Country": "NO",
+    "Website": "https://www.skeidar.no/sok/Index?q=sebra",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "X",
+    "Latitude": "63.4209242",
+    "Longitude": "10.46372",
+    "State/Province": ""
+  },
+  {
+    "Company": "Skeidar",
+    "Address": "Smibakken",
+    "Postal code": "6018",
+    "City": "Ålesund",
+    "Country": "NO",
+    "Website": "https://www.skeidar.no/sok/Index?q=sebra",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "X",
+    "Latitude": "58.0839341",
+    "Longitude": "7.3069289",
+    "State/Province": ""
+  },
+  {
+    "Company": "Sekidar",
+    "Address": "Ugvegen 16",
+    "Postal code": "5119",
+    "City": "Ulset ",
+    "Country": "NO",
+    "Website": "https://www.skeidar.no/sok/Index?q=sebra",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "X",
+    "Latitude": "60.4605793",
+    "Longitude": "5.3087356",
+    "State/Province": ""
+  },
+  {
+    "Company": "Mammashop",
+    "Address": "",
+    "Postal code": "",
+    "City": "",
+    "Country": "DK",
+    "Website": "https://mammashop.dk/collections/sebra",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "",
+    "Latitude": "",
+    "Longitude": "",
     "State/Province": ""
   }
 ]
