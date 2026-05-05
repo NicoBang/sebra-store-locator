@@ -5878,5 +5878,61 @@
     "Latitude": "",
     "Longitude": "",
     "State/Province": ""
+  },
+  {
+    "Company": "Skeidar",
+    "Address": "Smibakken",
+    "Postal code": "6018",
+    "City": "ÅLESUND",
+    "Country": "NO",
+    "Website": "https://www..no/sok/Index?q=sebra&type=Products&filter=&sort=6&page=2",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "X",
+    "Latitude": "58.0839341",
+    "Longitude": "7.3069289",
+    "State/Province": ""
+  },
+  {
+    "Company": "Skeidar",
+    "Address": "Tungasletta 10",
+    "Postal code": "7047",
+    "City": "Trondheim",
+    "Country": "NO",
+    "Website": "https://www..no/sok/Index?q=sebra&type=Products&filter=&sort=6&page=2",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "X",
+    "Latitude": "63.4305149",
+    "Longitude": "10.3950528",
+    "State/Province": ""
+  },
+  {
+    "Company": "Skeidar",
+    "Address": "Hesthaugvegen 16",
+    "Postal code": "5119",
+    "City": "Ulset",
+    "Country": "NO",
+    "Website": "https://www..no/sok/Index?q=sebra&type=Products&filter=&sort=6&page=2",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "X",
+    "Latitude": "60.465748",
+    "Longitude": "5.320107",
+    "State/Province": ""
+  },
+  {
+    "Company": "Lunabloom",
+    "Address": "Eeckhoutstraat 17B",
+    "Postal code": "8000",
+    "City": "Brügge",
+    "Country": "BE",
+    "Website": "https://www.lunabloom.be/NL/Search?trefwoord=sebra",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "X",
+    "Latitude": "51.0392062",
+    "Longitude": "3.4023849",
+    "State/Province": ""
   }
 ]
