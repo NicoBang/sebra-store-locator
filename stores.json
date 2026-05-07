@@ -1484,34 +1484,6 @@
     "State/Province": ""
   },
   {
-    "Company": "Babypark",
-    "Address": "Dückerweg 19",
-    "Postal code": "44867",
-    "City": "Bochum",
-    "Country": "DE",
-    "Website": "https://www.babypark.de/marken/sebra.html",
-    "Phone": "",
-    "Online": "X",
-    "Physical": "X",
-    "Latitude": "51.4742775",
-    "Longitude": "7.1503625",
-    "State/Province": ""
-  },
-  {
-    "Company": "Budenzauber",
-    "Address": "Untermarkt 1",
-    "Postal code": "45525",
-    "City": "Hattingen",
-    "Country": "DE",
-    "Website": "",
-    "Phone": "+49-2324-597282",
-    "Online": "",
-    "Physical": "X",
-    "Latitude": "51.3983357",
-    "Longitude": "7.1836089",
-    "State/Province": ""
-  },
-  {
     "Company": "Skandic.de",
     "Address": "Haupt Strasse 2",
     "Postal code": "42929",
@@ -1537,20 +1509,6 @@
     "Physical": "",
     "Latitude": "47.5918357",
     "Longitude": "7.5994339",
-    "State/Province": ""
-  },
-  {
-    "Company": "Marion Freese, Britta Claassen & Elske ClaassenGbR",
-    "Address": "Hyggelina CarolinensielAm Hafen West 1",
-    "Postal code": "26409",
-    "City": "Wittmund",
-    "Country": "DE",
-    "Website": "",
-    "Phone": "",
-    "Online": "",
-    "Physical": "X",
-    "Latitude": "53.6905614",
-    "Longitude": "7.8014712",
     "State/Province": ""
   },
   {
@@ -1736,25 +1694,11 @@
     "State/Province": ""
   },
   {
-    "Company": "Babyshop Hunstig",
-    "Address": "Westernstrasse 40",
-    "Postal code": "33098",
-    "City": "Paderborn",
-    "Country": "DE",
-    "Website": "https://www.babyshop.de/sebra:.:116.html",
-    "Phone": "",
-    "Online": "X",
-    "Physical": "X",
-    "Latitude": "51.7159905",
-    "Longitude": "8.7475629",
-    "State/Province": ""
-  },
-  {
     "Company": "Willy Erny AG",
     "Address": "Alte Frauenfelderstrasse 9",
     "Postal code": "8542",
     "City": "Wiesendangen",
-    "Country": "DE",
+    "Country": "CH",
     "Website": "https://ernybabyworld.ch/marke/sebra/",
     "Phone": "",
     "Online": "X",
@@ -1831,34 +1775,6 @@
     "Physical": "X",
     "Latitude": "53.5511275",
     "Longitude": "9.9885776",
-    "State/Province": ""
-  },
-  {
-    "Company": "123 allerlei",
-    "Address": "Untere Bachgasse 5",
-    "Postal code": "87700",
-    "City": "Memmingen",
-    "Country": "DE",
-    "Website": "",
-    "Phone": "",
-    "Online": "",
-    "Physical": "X",
-    "Latitude": "47.9851043",
-    "Longitude": "10.1804194",
-    "State/Province": ""
-  },
-  {
-    "Company": "Warenhaus Seelenlust",
-    "Address": "Webergasse 32",
-    "Postal code": "96450",
-    "City": "Coburg",
-    "Country": "DE",
-    "Website": "",
-    "Phone": "",
-    "Online": "",
-    "Physical": "X",
-    "Latitude": "50.2599789",
-    "Longitude": "10.9639754",
     "State/Province": ""
   },
   {
