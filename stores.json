@@ -1764,20 +1764,6 @@
     "State/Province": ""
   },
   {
-    "Company": " ",
-    "Address": " ",
-    "Postal code": " ",
-    "City": " ",
-    "Country": " ",
-    "Website": " ",
-    "Phone": "",
-    "Online": " ",
-    "Physical": "",
-    "Latitude": " ",
-    "Longitude": " ",
-    "State/Province": ""
-  },
-  {
     "Company": "BabySam",
     "Address": "Grundvigs Alle 196B",
     "Postal code": "6400",
@@ -2601,20 +2587,6 @@
     "Physical": "X",
     "Latitude": "38.051681",
     "Longitude": "-1.2073261",
-    "State/Province": ""
-  },
-  {
-    "Company": "Toc Toc SCP",
-    "Address": "C/ Madrid, 1",
-    "Postal code": "43870",
-    "City": "Amposta, TARRAGONA",
-    "Country": "ES",
-    "Website": "https://toctockids.com/en/search?controller=search&s=sebra",
-    "Phone": "",
-    "Online": "X",
-    "Physical": "X",
-    "Latitude": "40.7099014",
-    "Longitude": "0.5803038",
     "State/Province": ""
   },
   {
