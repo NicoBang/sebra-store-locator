@@ -1526,17 +1526,17 @@
     "State/Province": ""
   },
   {
-    "Company": "Magasin Onlineshop",
-    "Address": "",
-    "Postal code": "",
-    "City": "",
+    "Company": "Lirum Larum Leg",
+    "Address": "Engholmvej 16",
+    "Postal code": "3100",
+    "City": "Hornbæk",
     "Country": "DK",
-    "Website": "https://www.magasin.dk/maerker/sebra",
+    "Website": "https://www.lirumlarumleg.dk/collections/sebra",
     "Phone": "",
-    "Online": "X",
+    "Online": "x",
     "Physical": "",
-    "Latitude": "",
-    "Longitude": "",
+    "Latitude": "56.077754",
+    "Longitude": "12.48098",
     "State/Province": ""
   },
   {
@@ -2143,20 +2143,6 @@
   },
   {
     "Company": "BabySam ",
-    "Address": "",
-    "Postal code": "2610",
-    "City": "Rødovre",
-    "Country": "DK",
-    "Website": "https://www.babysam.dk/maerker-sebra",
-    "Phone": "",
-    "Online": "X",
-    "Physical": "",
-    "Latitude": "55.6889548",
-    "Longitude": "12.4492456",
-    "State/Province": ""
-  },
-  {
-    "Company": "BabySam ",
     "Address": "Rødovre Centrum 108",
     "Postal code": "2610",
     "City": "Rødovre",
@@ -2167,20 +2153,6 @@
     "Physical": "X",
     "Latitude": "55.6778708",
     "Longitude": "12.4582607",
-    "State/Province": ""
-  },
-  {
-    "Company": "Lirum Larum Leg",
-    "Address": "Engholmvej 16",
-    "Postal code": "3100",
-    "City": "Hornbæk",
-    "Country": "DK",
-    "Website": "https://www.lirumlarumleg.dk/collections/sebra",
-    "Phone": "",
-    "Online": "x",
-    "Physical": "",
-    "Latitude": "56.077754",
-    "Longitude": "12.48098",
     "State/Province": ""
   },
   {
