@@ -5626,5 +5626,61 @@
     "Latitude": "48.2347002",
     "Longitude": "13.8289529",
     "State/Province": ""
+  },
+  {
+    "Company": "Baby&Family München",
+    "Address": "Bremer Straße 11",
+    "Postal code": "80807",
+    "City": "Münchenbuchsee",
+    "Country": "DE",
+    "Website": "",
+    "Phone": "0049 017632826394",
+    "Online": "x",
+    "Physical": "x",
+    "Latitude": "53.4580023",
+    "Longitude": "9.9813508",
+    "State/Province": ""
+  },
+  {
+    "Company": "Baby&family Ingolstadt",
+    "Address": "Am Westpark 3",
+    "Postal code": "85057",
+    "City": "Ingolstadt",
+    "Country": "DE",
+    "Website": "",
+    "Phone": "0049 08411382330",
+    "Online": "x",
+    "Physical": "x",
+    "Latitude": "48.7740897",
+    "Longitude": "11.3863168",
+    "State/Province": ""
+  },
+  {
+    "Company": "Baby&family Nürnberg",
+    "Address": "Eltersdorfer Straße 23",
+    "Postal code": "90425",
+    "City": "Nürnberg",
+    "Country": "DE",
+    "Website": "",
+    "Phone": "0049 91137778330",
+    "Online": "x",
+    "Physical": "x",
+    "Latitude": "49.4820437",
+    "Longitude": "11.0594589",
+    "State/Province": ""
+  },
+  {
+    "Company": "Beddies.nl",
+    "Address": "Duinkerkenstraat 44",
+    "Postal code": "9723 BT",
+    "City": "Groningen",
+    "Country": "NL",
+    "Website": "",
+    "Phone": "",
+    "Online": "x",
+    "Physical": "",
+    "Latitude": "53.2003572",
+    "Longitude": "6.6029473",
+    "State/Province": ""
   }
 ]
