@@ -4200,7 +4200,7 @@
     "State/Province": ""
   },
   {
-    "Company": "Mukaki",
+    "Company": "AGNIESZKA ZIELIŃSKA-CHMURA",
     "Address": "ul.Cedrowa 1/1",
     "Postal code": "62-070",
     "City": "Dąbrówka",
@@ -5681,6 +5681,20 @@
     "Physical": "",
     "Latitude": "53.2003572",
     "Longitude": "6.6029473",
+    "State/Province": ""
+  },
+  {
+    "Company": "Skeidar",
+    "Address": "Verkstedveien 6",
+    "Postal code": "8624",
+    "City": "MO I RANA",
+    "Country": "NO",
+    "Website": "",
+    "Phone": "4775143060",
+    "Online": "",
+    "Physical": "X",
+    "Latitude": "59.9213024",
+    "Longitude": "10.6840799",
     "State/Province": ""
   }
 ]
