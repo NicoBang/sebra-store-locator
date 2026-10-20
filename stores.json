@@ -5654,5 +5654,19 @@
     "Latitude": "59.9213024",
     "Longitude": "10.6840799",
     "State/Province": ""
+  },
+  {
+    "Company": "BabySam",
+    "Address": "Karlbergsvägen 40",
+    "Postal code": "113 27",
+    "City": "Stockholm",
+    "Country": "SE",
+    "Website": "https://www.babysam.se/varumaerken-sebra",
+    "Phone": "",
+    "Online": "X",
+    "Physical": "X",
+    "Latitude": "59.3428538",
+    "Longitude": "18.0408331",
+    "State/Province": ""
   }
 ]
