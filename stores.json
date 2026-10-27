@@ -5633,7 +5633,7 @@
     "Postal code": "9723 BT",
     "City": "Groningen",
     "Country": "NL",
-    "Website": "",
+    "Website": "https://www.beddies.nl/?s=sebra&post_type=product&type_aws=true",
     "Phone": "",
     "Online": "x",
     "Physical": "",
@@ -5667,6 +5667,20 @@
     "Physical": "X",
     "Latitude": "59.3428538",
     "Longitude": "18.0408331",
+    "State/Province": ""
+  },
+  {
+    "Company": "Les Petits",
+    "Address": "43 Chemin Du Suillet",
+    "Postal code": "6500",
+    "City": "Menton",
+    "Country": "FR",
+    "Website": "https://www.lespetits.fr/en/search?q=sebra&options%5Bprefix%5D=last",
+    "Phone": "33670782122",
+    "Online": "x",
+    "Physical": "x",
+    "Latitude": "43.7796422",
+    "Longitude": "7.4849976",
     "State/Province": ""
   }
 ]
